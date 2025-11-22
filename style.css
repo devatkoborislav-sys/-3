@@ -1,0 +1,30 @@
+ body{
+    background-image: url(./mothers-day-background-with-roses-left_23-2147776121.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background: url(./mothers-day-background-with-roses-left_23-2147776121.avif); */
+    height: 100vh;
+    font-family: "Science Gothic", sans-serif;
+ }
+
+ .card {
+    background-color: aqua;
+    width: 400px;
+ }
+
+ .card-header {
+    background-color: blue;
+    padding: 20px;
+    border-radius: 10px;
+ }
+
+ .card-body {}
+
+ .card-footer {}
+
+ .card-btn {}
