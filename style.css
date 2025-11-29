@@ -15,6 +15,7 @@
  .card {
     background-color: aqua;
     width: 400px;
+    text-align: center;
  }
 
  .card-header {
@@ -23,8 +24,25 @@
     border-radius: 10px;
  }
 
- .card-body {}
+ .card-body {
+   padding: 10px;
+ }
 
- .card-footer {}
+ .card-footer {
+   background-color: burlywood;
+   padding: 20px;
+ }
 
- .card-btn {}
+ .card-btn {
+   background-color: darkorchid;
+   cursor: pointer;
+   border-radius: 25px;
+   text-transform: uppercase;
+   font-weight: 800;
+   transition: all 1s;
+
+ }
+ .card-btn:hover{
+   background-color: darkgrey;
+   transform: scale(1.1);
+ }
